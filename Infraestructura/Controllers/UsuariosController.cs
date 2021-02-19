@@ -11,6 +11,7 @@ using AutoMapper;
 using Dominio.DataAccess.Entities;
 using Dominio.Helpers.Attributes;
 using Dominio.Helpers.Utils;
+using Microsoft.Extensions.Configuration;
 
 namespace Infraestructura.Controllers
 {
@@ -22,12 +23,14 @@ namespace Infraestructura.Controllers
         private readonly IMapper mapper;
         private readonly UnitOfWork unitOfWork;
         private readonly ILogger<UsuariosController> logger;
+        private readonly IConfiguration configuration;
 
-        public UsuariosController(ILogger<UsuariosController> Logger, FleetManagerContext Context, IMapper Mapper)
+        public UsuariosController(ILogger<UsuariosController> Logger, FleetManagerContext Context, IMapper Mapper, IConfiguration Configuration)
         {
             context = Context;
             mapper = Mapper;
-            unitOfWork ??= new UnitOfWork(context, mapper);
+            configuration = Configuration;
+            unitOfWork ??= new UnitOfWork(context, mapper, configuration);
             logger = Logger;
         }
 

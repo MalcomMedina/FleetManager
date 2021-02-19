@@ -7562,11 +7562,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Malco\\Documents\\FleetManager\\Project\\FleetManager\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\Malco\\Documents\\GitHub\\MalcomMedina\\FleetManager\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\Malco\\Documents\\FleetManager\\Project\\FleetManager\\Dominio\\Dominio.csproj",
+      "projectPath": "C:\\Users\\Malco\\Documents\\GitHub\\MalcomMedina\\FleetManager\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\Malco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Malco\\Documents\\FleetManager\\Project\\FleetManager\\Dominio\\obj\\",
+      "outputPath": "C:\\Users\\Malco\\Documents\\GitHub\\MalcomMedina\\FleetManager\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

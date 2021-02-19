@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WuEd3Fr44bHofV51RabIguGNa9+bnD1ChQtYzH+zpuCNdqDPJ+l2QSZlYIUSIWpwSTnrnvs3lM+kOH+ZwcGnWQ==",
+  "dgSpecHash": "uNMnUlFLK14nUFA7P/tFG7aBMsXHU2k6kjAzrjnlPCUUKiA96rtigShrI3qoC/4q7N8FkutHA64l62GKWAc6EQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Malco\\Documents\\FleetManager\\Project\\FleetManager\\Infraestructura\\Infraestructura.csproj",
+  "projectFilePath": "C:\\Users\\Malco\\Documents\\GitHub\\MalcomMedina\\FleetManager\\Infraestructura\\Infraestructura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Malco\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\Malco\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

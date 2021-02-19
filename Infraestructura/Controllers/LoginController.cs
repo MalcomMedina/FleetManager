@@ -8,6 +8,7 @@ using Dominio.DataAccess.ViewModels.Login;
 using Dominio.UnitOfWork;
 using Dominio.DataAccess.DBContexts;
 using AutoMapper;
+using Microsoft.Extensions.Configuration;
 
 namespace Infraestructura.Controllers
 {
@@ -19,12 +20,14 @@ namespace Infraestructura.Controllers
         private readonly IMapper mapper;
         private readonly UnitOfWork unitOfWork;
         private readonly ILogger<UsuariosController> logger;
+        private readonly IConfiguration configuration;
 
-        public LoginController(ILogger<UsuariosController> Logger, FleetManagerContext Context, IMapper Mapper)
+        public LoginController(ILogger<UsuariosController> Logger, FleetManagerContext Context, IMapper Mapper,IConfiguration Configuration)
         {
             context = Context;
             mapper = Mapper;
-            unitOfWork ??= new UnitOfWork(context, mapper);
+            configuration = Configuration;
+            unitOfWork ??= new UnitOfWork(context, mapper, configuration);
             logger = Logger;
         }
 

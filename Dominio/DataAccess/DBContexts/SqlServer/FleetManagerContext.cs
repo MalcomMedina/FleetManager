@@ -2,14 +2,13 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Dominio.DataAccess.Entities;
-using Dominio.DataAccess.AdaptableContext;
 using System.Threading.Tasks;
 
 #nullable disable
 
 namespace Dominio.DataAccess.DBContexts
 {
-    public partial class FleetManagerContext : DbContext, IStrategyAdaptableContext
+    public partial class FleetManagerContext : DbContext
     {
         public FleetManagerContext()
         {

@@ -7547,11 +7547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Malco\\Documents\\FleetManager\\Project\\FleetManager\\Infraestructura\\Infraestructura.csproj",
+      "projectUniqueName": "C:\\Users\\Malco\\Documents\\GitHub\\MalcomMedina\\FleetManager\\Infraestructura\\Infraestructura.csproj",
       "projectName": "Infraestructura",
-      "projectPath": "C:\\Users\\Malco\\Documents\\FleetManager\\Project\\FleetManager\\Infraestructura\\Infraestructura.csproj",
+      "projectPath": "C:\\Users\\Malco\\Documents\\GitHub\\MalcomMedina\\FleetManager\\Infraestructura\\Infraestructura.csproj",
       "packagesPath": "C:\\Users\\Malco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Malco\\Documents\\FleetManager\\Project\\FleetManager\\Infraestructura\\obj\\",
+      "outputPath": "C:\\Users\\Malco\\Documents\\GitHub\\MalcomMedina\\FleetManager\\Infraestructura\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -7573,8 +7573,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Malco\\Documents\\FleetManager\\Project\\FleetManager\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\Malco\\Documents\\FleetManager\\Project\\FleetManager\\Dominio\\Dominio.csproj"
+            "C:\\Users\\Malco\\Documents\\GitHub\\MalcomMedina\\FleetManager\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\Malco\\Documents\\GitHub\\MalcomMedina\\FleetManager\\Dominio\\Dominio.csproj"
             }
           }
         }
